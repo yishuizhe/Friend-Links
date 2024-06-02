@@ -13,10 +13,11 @@
 2. 双击 HTML 文件在浏览器中打开，或者将文件部署到 Web 服务器上进行访问。
 
 ## 示例
-
+2024年6月2日上午效果：
 ![微信截图_20240602160401](https://github.com/yishuizhe/Frend-Links/assets/92246373/56fd07a4-f08e-470d-838c-019d15aa23d1)
 ![微信截图_20240602160410](https://github.com/yishuizhe/Frend-Links/assets/92246373/5146f119-0e20-4449-abc0-06b65776c2b7)
-
+2024年6月2日下午效果：
+![微信截图_20240602185543](https://github.com/yishuizhe/Friend-Links/assets/92246373/67af3486-2695-4d03-97e9-c9787776f22c)
 
 ## 贡献
 
