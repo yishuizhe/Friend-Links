@@ -1,27 +1,27 @@
 const links = [{
 		name: "fliggy的个人小窝",
 		url: "https://www.fliggy.top/",
-		description: "蟹堡王团队创始人,比基尼海滩摊主",
+		description: "蟹堡王团队创始人,比基尼海滩摊主。",
 		avatar: "https://www.fliggy.top/usr/themes/handsome/assets/img/avatar.jpg"
 	},
 	{
 		name: "懵仙兔兔",
 		url: "https://2dph.com",
-		description: "永远相信，美好的事情即将发生",
+		description: "永远相信，美好的事情即将发生。",
 		avatar: "https://2dph.com/logo.png"
 	},
 	{
 		name: "Py-Blog",
 		url: "https://www.018z.com/",
-		description: "总有人间一两风，填我十万八千梦",
+		description: "总有人间一两风，填我十万八千梦。",
 		avatar: "https://www.018z.com/static/upload/1699953130000.jpg"
 	},
-	// {
-	// 	name: "网站1",
-	// 	url: "https://example1.com",
-	// 	description: "这是网站1的描述",
-	// 	avatar: "博主头像路径"
-	// },
+	{
+		name: "国光 - 分享与收获",
+		url: "https://www.sqlsec.com/",
+		description: "逆水行舟，不进则退。",
+		avatar: "https://html.sqlsec.com/hexo/avatar.png"
+	},
 	// {
 	// 	name: "网站2",
 	// 	url: "https://example2.com",
