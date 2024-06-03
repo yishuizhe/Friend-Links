@@ -1,0 +1,225 @@
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 94vh;
+	/* 使得内容高度不足时也撑满整个视口 */
+	font-family: cursive;
+	margin: 0;
+	padding: 20px;
+	background-color: #f8f8f8;
+}
+
+.yiyan {
+	font-size: 20px;
+	font-family: cursive;
+	width: 240px;
+	height: 130px;
+	margin-top: 70px;
+	margin-left: 60px;
+}
+
+.auth {
+	margin-top: 10px;
+	margin-left: 180px;
+}
+
+.author-info {
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	align-items: center;
+	width: 350px;
+	margin-left: 250px;
+	background-color: #fff;
+	border: 1px solid #eee;
+	margin-top: 20px;
+	height: 640px;
+}
+
+.author-avatar {
+	margin-top: 80px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-right: 20px;
+	margin-left: 50px;
+}
+
+.author-details {
+	flex-grow: 1;
+}
+
+.author-bio {
+	padding-left: 1px;
+	margin-top: 100px;
+	margin-left: 40px;
+
+}
+
+.author-name {
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 45px;
+	margin-top: -80px;
+	margin-left: 160px;
+}
+
+.author-contact {
+	margin-top: 80px;
+	color: #666;
+	font-size: 14px;
+}
+
+.author-bio ul {
+	font-size: 25px;
+	font-family: cursive;
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+	color: black;
+}
+
+.author-bio li {
+	display: flex;
+	align-items: center;
+	gap: 2px;
+}
+
+.author-bio svg {
+	width: 1em;
+	height: 1em;
+}
+
+.author-bio span {
+	font-size: 0.875rem;
+}
+
+.link-list {
+	position: absolute;
+	margin-left: 630px;
+	margin-top: 20px;
+	width: 750px;
+	/* 	margin: 0 auto; */
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	flex-grow: 1;
+	/* 使得友链部分可以撑满剩余空间 */
+}
+
+.link-list h2 {
+	text-align: center;
+	color: #333;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.links {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.link-box {
+	width: 200px;
+	
+	padding: 10px;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.link-box:hover {
+	background-color: #f0f0f0;
+	cursor: pointer;
+	transform: translateY(-3px);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.link-box img {
+	margin-top: 6px;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+
+.link-text {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	/* 为了给文字内容留足够的空间 */
+}
+
+.link-text a {
+	position: absolute;
+	text-decoration: none;
+	margin-left: 60px;
+	margin-top: -55px;
+	color: #333;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+
+.link-text a:hover {
+	color: #ff6600;
+	text-decoration: underline;
+}
+
+.link-description {
+	margin-top: -34px;
+	margin-left: 60px;
+	color: #666;
+	font-size: 14px;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: -20px;
+	margin-top: auto;
+	/* 将 footer 固定在底部 */
+	padding-top: 15px;
+	border-top: 1px solid #eee;
+	width: 100%;
+	background-color: #fff;
+}
+
+footer p {
+	margin: 5px 0;
+	font-size: 12px;
+}
+
+footer span {
+	color: black;
+}
+
+.pagination {
+	text-align: center;
+	margin-top: -20px;
+	position: fixed;
+	/* 固定位置 */
+	bottom: 70px;
+	/* 距离底部 20px */
+	left: 1030px;
+	/* 水平居中 */
+	transform: translateX(-50%);
+	/* 水平居中 */
+}
+
+.pagination button {
+	background-color: #f0f0f0;
+	border: none;
+	padding: 5px 10px;
+	margin: -20px 5px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.pagination button:hover {
+	background-color: #ddd;
+}
