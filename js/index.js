@@ -172,7 +172,7 @@ function displayLinks(pageNumber) {
         contentDiv.innerHTML = `
             <img src="${link.avatar}" alt="博主头像" width="50" height="50">
             <div class="link-text">
-                <div><a href="${link.url}" target="_blank">${link.name}</a></div>
+                <div><p>${link.name}</p></div>
                 <div class="link-description">${link.description}</div>
             </div>
         `;
